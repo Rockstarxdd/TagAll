@@ -19,7 +19,7 @@ async def start(event):
   await event.reply("__**Tag All Bot**, I can Tag almost all members in group or channel 😉\nClick **/help** for more information__\n\n And Join [T.S.F]()",
                     buttons=(
                       [Button.url('📶Network', 'https://t.me/TSFNETWORK'),
-                      Button.url('🚀 Deploy', 'https://heroku.com/deploy?template=https://github.com/DEVELOPER-XD/TagAll')]
+                      Button.url('🚀 Deploy', 'https://heroku.com/deploy?template=https://github.com/T5FR0CK5T4R/TagAll')]
                     ),
                     link_preview=False
                    )
@@ -83,5 +83,5 @@ async def mentionall(event):
         usrtxt = ""
         
 print(">> BOT STARTED <<")
-print("Join @TSF_NETWORK") 
+print("Join @TSFNETWORK") 
 tsf.run_until_disconnected()
